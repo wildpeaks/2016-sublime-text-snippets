@@ -1,0 +1,24 @@
+
+<snippet>
+<content><![CDATA['use strict';
+const React = require('react');
+require('./AAAAAAAAAAAAAAAAAA.css');
+
+module.exports = React.createClass({
+	displayName: 'AAAAAAAAAAAAAAAAAA',
+	propTypes: {
+		hello: React.PropTypes.string.isRequired
+	},
+	render(){
+		return (
+			<div className="AAAAAAAAAAAAAAAAAA">
+				{this.props.hello}
+			</div>
+		);
+	}
+});
+
+]]></content>
+<tabTrigger>jsx</tabTrigger>
+<scope>source.js</scope>
+</snippet>

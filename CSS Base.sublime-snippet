@@ -1,0 +1,52 @@
+
+<snippet>
+<content><![CDATA[
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	color: #333;
+	background: #fafafa;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+p {
+	hyphens: auto;
+	hyphenate-limit-lines: 2;
+	hyphenate-limit-chars: 6 3 2;
+	hyphenate-limit-zone: 4em;
+	widows: 3;
+	orphans: 3;
+}
+
+h1 {
+	font-style: normal;
+	font-family: Lato, serif;
+	font-weight: 400;
+	font-size: 4em;
+}
+
+a {
+	transition: all 100ms;
+}
+
+]]></content>
+<tabTrigger>!</tabTrigger>
+<scope>source.css</scope>
+</snippet>
