@@ -1,0 +1,21 @@
+
+<snippet>
+<content><![CDATA['use strict';
+/* eslint-env node, mocha */
+/* eslint-disable no-undefined */
+const AAAAAAAA = require('..');
+const assert = require('assert');
+
+describe('/array_unique', () => {
+	it('(123, "hello")', () => {
+		assert.deepEqual(AAAAAAAA(123, 'hello'), []);
+		assert.strictEqual(AAAAAAAA(123, 'hello'), true);
+		assert.deepStrictEqual(AAAAAAAA(123, 'hello'), [true]);
+		$1
+	});
+});
+
+]]></content>
+<tabTrigger>!mocha</tabTrigger>
+<scope>source.js</scope>
+</snippet>
